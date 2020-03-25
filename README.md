@@ -1,4 +1,4 @@
-# Installation instrcutions
+# Installation instructions
 ```
 composer require lucas:module-devbox --no-update
 composer update
