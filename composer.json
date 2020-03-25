@@ -1,0 +1,22 @@
+{
+    "name": "lucas/module-devbox",
+    "description": "These are tools I'm building to expidite debugging and troubleshooting.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Maliszewski",
+            "email": "lucascube@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lucas\\Devbox\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
