@@ -7,4 +7,5 @@ before_script:
     - composer global config http-basic.repo.magento.com $MAGE_USER $MAGE_PASS
 script:
     - composer create-project --repository-url=https://repo.magento.com/ magento/project-enterprise-edition
-    
+    - php bin/magento module:enable Lucas_Devbox
+    - php bin/magento setup:upgrade
