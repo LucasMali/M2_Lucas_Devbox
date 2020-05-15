@@ -2,10 +2,10 @@ dist: xenial
 language: php
 php:
     - 7.2
-install:
-    - composer
-before_script:
-    - composer global config http-basic.repo.magento.com $MAGE_USER $MAGE_PASS
+# install:
+#     - composer
+# before_script:
+#     - composer global config http-basic.repo.magento.com $MAGE_USER $MAGE_PASS
 # script:
 #     - composer create-project --repository-url=https://repo.magento.com/ magento/project-enterprise-edition
 #     - php bin/magento module:enable Lucas_Devbox
